@@ -1,0 +1,24 @@
+.text-primary{
+    color: brown !important;
+}
+.text-secondary{
+    color: yellow !important;
+}
+.text-success{
+    color: green !important;
+}
+.text-info{
+    color:red!important;
+}
+/*.bg-primary,.btn-primary{
+    background: linear-gradient(45deg,blue,red) !important;
+}*/
+.bg-secondary,.btn-secondary{
+    background: linear-gradient(45deg,yellow,pink) !important;
+}
+.bg-success,.btn-success{
+    background: linear-gradient(45deg,green,black) !important;
+}
+.bg-info,.btn-info{
+    background: linear-gradient(45deg,purple,lightcoral) !important;
+}

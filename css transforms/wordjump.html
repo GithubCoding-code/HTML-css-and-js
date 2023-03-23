@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WORDJUMP</title>
+    <style>
+        body{
+            margin: 200px 0 0 300px;
+        }
+        h1{
+            width: fit-content;
+        }
+        span{
+            background-color: grey;
+            padding: 4px;
+            border-radius: 10px;
+            position: relative;
+            animation-name: jump;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+        span:nth-child(1)
+        {
+            color:blue;
+            animation-delay: 0s;
+        }
+        span:nth-child(2)
+        {
+            color:red;
+            animation-delay: 1s;
+        }
+        span:nth-child(3)
+        {
+            color:greenyellow;
+            animation-delay:2s;
+        }
+        span:nth-child(4)
+        {
+            color:purple;
+            animation-delay:3s;
+        }
+        span:nth-child(5)
+        {
+            color:yellow;
+            animation-delay:4s;
+        }
+        span:nth-child(6)
+        {
+            color:palevioletred;
+            animation-delay:5s;
+        }
+        @keyframes jump {
+            from{
+                
+                bottom:0px;
+              filter: hue-rotate(360deg);
+            }
+            to{
+               filter: hue-rotate(360deg);
+                bottom: 100px;
+            }
+    </style>
+</head>
+<body>
+ <h1>
+        <span>R</span>
+        <span>A</span>
+        <span>M</span>
+        <span>E</span>
+        <span>S</span>
+        <span>H</span>
+    </h1>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Swiggy Cart</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <h1 style="color: orange;">Swiggy Cart</h1>
+    <p style="font-family:Arial, Helvetica, sans-serif;">
+                Do you sometimes feel that e-commerce apps make it harder for customers to arrive at a decision
+        on what to shop for? Have you ever spent countless hours scrolling through restaurant menus
+        on Swiggy only to end up ordering the same Biryani a 128th time?
+        If so, then you are not alone! We noticed that a significant chunk of our users tend to browse 
+        restaurant menus for a long time and not end up ordering at all.
+    </p>
+    <button style="padding: 40 px; margin: 30px; background-color: darkred;color: ghostwhite;">ORDER NOW</button>
+    <table border="30" width="50%">
+        <tr>
+        <th> Sl.NO</th>
+        <th>IMAGE</th>
+        <th>NAME</th>
+        <th>QUANTITY</th>
+        <th>PRICE</th>
+        <th>TOTAL PRICE</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><img src="data:image/jpeg;base64,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" alt=""></td>
+        <td>ICE CREAM</td>
+        <td><button onClick="incCount();" i class="fa-solid fa-plus"></i></button>
+            <button onClick="decCount();" i class="fa-solid fa-minus"></i></button>
+            <span id="display"></span>
+        </td>
+        <td>30/-</td>
+        <td>90/-</td>
+
+    </tr>
+    </table>
+    <script>
+        let spanTag=document.querySelector('#display');
+     let count=0;
+     spanTag.innerText=count;
+     function incCount()
+     {
+        count++;      
+        spanTag.innerText=count;
+
+     }
+     function decCount()
+     {
+        if(count>=1)
+        {
+        count--;      
+        spanTag.innerText=count;
+     }
+     else
+     {
+        spanTag.innerText=1
+     }
+    }
+
+ </script>
+</body>
+</html>
